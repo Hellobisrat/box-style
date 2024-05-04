@@ -46,3 +46,35 @@ footer {
   background-color: #13293d;
   color: #fff;
 }
+
+.photo {
+  padding: 20px 10px;
+  border: 2px #bfbfbf;
+  background-color: #fff;
+}
+
+.rotate {
+  transform: rotate(-2deg);
+}
+
+.scale {
+  transform: scale(1.5,1);
+}
+
+.skew {
+  transform: skew(15deg) ;
+}
+
+@media screen and (max-width: 768px ) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+  header {
+    background: #772014;
+  }
+  nav,
+  footer {
+    background-color: #bb8588;
+  }
+}
